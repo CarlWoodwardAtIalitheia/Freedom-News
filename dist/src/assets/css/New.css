@@ -47,8 +47,6 @@ select {
 .title {
   justify-content: flex-start;
   padding-bottom: 5px;
-  background: #f8faf9;
-  z-index: 3;
 }
 
 .title-input {

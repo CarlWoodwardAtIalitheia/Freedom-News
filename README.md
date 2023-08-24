@@ -1,10 +1,12 @@
+![Social Preview](./social-preview.png)
+
 # Freedom News - Everyone deserves press freedom
 
 *A Nostr Client Defending Press Freedom*
 
 ## Official version
 
-[Freedom-News 1.0.0 (https://freedom-news.vercel.app/)](https://freedom-news.vercel.app/)
+[Freedom-News 1.0.1 (https://freedom-news.vercel.app/)](https://freedom-news.vercel.app/)
 
 ## Developing
 
