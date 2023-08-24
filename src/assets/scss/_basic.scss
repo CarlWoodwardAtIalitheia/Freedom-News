@@ -1,0 +1,19 @@
+// Light theme
+$background: #e0ebe3;
+$foreground: #141f17;
+
+// // Dark theme
+// $background: hsl(136, 22%, 10%);
+// $foreground: hsl(136, 22%, 90%);
+
+%column-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+%row-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

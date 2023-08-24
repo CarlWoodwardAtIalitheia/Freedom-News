@@ -1,0 +1,83 @@
+@use './basic';
+
+input {
+    font-size: large;
+    margin-left: 5px;
+
+    border: none;
+    border-bottom: basic.$foreground 1px solid;
+    border-radius: 0;
+
+    outline: none;
+    color: basic.$foreground;
+}
+
+input,
+select {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+strong {
+    color: rgba(basic.$foreground, 0.8);
+}
+
+.new-event {
+    box-sizing: border-box;
+    width: 100vw;
+
+    margin-top: 5px;
+    padding: 10px;
+    border: rgba(basic.$foreground, 0.5) 2px dashed;
+    border-radius: 20px;
+}
+
+.tags {
+    @extend %row-flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.tag {
+    // box-sizing: border-box;
+    margin: 5px;
+    padding: 0 5px;
+
+    background: rgba(basic.$background, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    height: 22px;
+
+    @extend %row-flex;
+    align-items: center;
+
+}
+
+img[src*="br-cross"] {
+    margin-left: 2px;
+}
+
+.updating {
+    animation: turn 1s linear infinite;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.title {
+    @extend %row-flex;
+    flex-wrap: wrap;
+}
+
+.title-input {
+    flex-grow: 1;
+}

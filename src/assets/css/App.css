@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.app {
+  justify-content: flex-start;
+  height: 100%;
+}
+
+router-view {
+  flex-grow: 1;
+}/*# sourceMappingURL=App.css.map */

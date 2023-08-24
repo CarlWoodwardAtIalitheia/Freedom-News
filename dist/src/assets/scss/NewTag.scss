@@ -1,0 +1,19 @@
+@use './basic';
+
+div {
+    border: none;
+    outline: none;
+
+    margin: 5px;
+    padding: 0 5px;
+
+    background: rgba(basic.$background, 0.8);
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+}
+
+input {
+    margin: 0 5px;
+    border-bottom: basic.$foreground 1px solid;
+}

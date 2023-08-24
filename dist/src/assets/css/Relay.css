@@ -1,0 +1,46 @@
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+  font-size: 1em;
+}
+
+.text,
+.reconnect {
+  margin: 0 5px;
+}
+
+.text {
+  font-family: Franklin, arial, sans-serif;
+}
+
+.status-wrapper {
+  align-self: flex-end;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+img[src*=cross] {
+  color: rgba(255, 0, 0, 0.7019607843);
+}
+
+.connecting {
+  animation: turn 1s linear 1;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=Relay.css.map */

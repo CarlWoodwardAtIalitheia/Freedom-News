@@ -1,0 +1,45 @@
+.enter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.list > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h2 {
+  margin: 0 10px;
+  color: rgba(20, 31, 23, 0.8);
+  font-family: Franklin, arial, sans-serif;
+}
+
+.list > div {
+  margin: 10px;
+  box-sizing: border-box;
+  height: 100px;
+  background: rgba(224, 235, 227, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.title {
+  margin: 20px;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+.enter {
+  width: 60px;
+  height: 100%;
+  background: rgba(20, 31, 23, 0.5);
+  border-radius: 0 10px 10px 0;
+  align-items: center;
+}
+
+.icon {
+  height: 30px;
+}/*# sourceMappingURL=EventList.css.map */

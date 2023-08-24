@@ -1,0 +1,14 @@
+@use "../scss/basic";
+
+.images-container {
+    @extend %row-flex;
+    justify-content: left;
+
+    overflow-x: scroll;
+}
+
+img {
+    height: 25vh;
+    margin: 0 10px;
+    font-family: Franklin, arial, sans-serif;
+}

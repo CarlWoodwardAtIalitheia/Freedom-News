@@ -1,0 +1,43 @@
+@use "../basic";
+
+h2 {
+    margin: 0 10px;
+    color: rgba(basic.$foreground, 0.8);
+    font-family: Franklin, arial, sans-serif;
+}
+
+.list>div {
+    margin: 10px;
+    box-sizing: border-box;
+    height: 100px;
+
+    background: rgba(basic.$background, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+    @extend %row-flex;
+
+    // box-shadow: 0px 0px 10px 3px rgba(basic.$background, 0.9);
+}
+
+.title {
+    margin: 20px;
+
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.enter {
+    width: 60px;
+    height: 100%;
+
+    background: rgba(basic.$foreground, 0.5);
+    border-radius: 0 10px 10px 0;
+
+    @extend %column-flex;
+    align-items: center;
+}
+
+.icon {
+    height: 30px;
+}

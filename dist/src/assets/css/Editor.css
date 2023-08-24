@@ -1,0 +1,57 @@
+.editor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.editor {
+  height: 0;
+  flex-grow: 1;
+  z-index: 0;
+  border-bottom: none !important;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+input[type=file] {
+  display: none;
+}
+
+video {
+  max-width: 100%;
+}
+
+.content {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.message {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(224, 235, 227, 0.3);
+  color: #141f17;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.uploading > img {
+  margin-right: 5px;
+}/*# sourceMappingURL=Editor.css.map */

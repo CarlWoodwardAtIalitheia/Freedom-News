@@ -1,0 +1,37 @@
+@use 'basic';
+
+.timeline {
+    padding: 15px;
+
+    @extend %row-flex;
+    justify-content: flex-start;
+}
+
+.line {
+    width: 10px;
+    border-right: rgba(basic.$foreground, 0.3) solid 2px;
+}
+
+.updates {
+    flex-grow: 1;
+}
+
+.sorting {
+    @extend %row-flex;
+    // justify-content: center;
+
+    color: rgba(basic.$foreground, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    color: rgba(basic.$foreground, 0.7);
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.right {
+    flex-grow: 1;
+}

@@ -1,0 +1,50 @@
+@use 'basic';
+
+li {
+    @extend %row-flex;
+    justify-content: left;
+    align-items: center;
+
+    margin: 10px;
+
+    font-size: 1em;
+}
+
+.text,
+.reconnect {
+    margin: 0 5px;
+}
+
+.text {
+    font-family: Franklin, arial, sans-serif;
+}
+
+.status-wrapper {
+    align-self: flex-end;
+}
+
+.text {
+    flex-grow: 1;
+}
+
+img[src*="cross"] {
+    color: #ff0000b3;
+}
+
+.connecting {
+    animation: turn 1s linear 1;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+// li>img {
+//     height: 16px;
+// }

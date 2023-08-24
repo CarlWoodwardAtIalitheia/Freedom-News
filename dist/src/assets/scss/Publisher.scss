@@ -1,0 +1,22 @@
+@use 'basic';
+
+.publisher {
+    @extend %row-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avatar,
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.right {
+    font-family: Arial, Helvetica;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 5px;
+    color: rgba(basic.$foreground, 1);
+}

@@ -1,0 +1,33 @@
+.metadata {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.post {
+  padding: 10px;
+  padding-bottom: 70px;
+}
+
+.post * {
+  color: #141f17 !important;
+}
+
+.markdown-body {
+  font-family: "Times New Roman", Times, serif;
+  background: rgba(255, 255, 255, 0);
+}
+
+.metadata {
+  margin: 5px 0;
+  padding-bottom: 5px;
+  border-bottom: #e0ebe3 solid 2px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.date {
+  opacity: 0.7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}/*# sourceMappingURL=Post.css.map */

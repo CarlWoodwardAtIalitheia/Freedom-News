@@ -1,0 +1,74 @@
+.credential, .credential > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.panel .avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.panel .avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: #e0ebe3 5px solid;
+  box-sizing: border-box;
+}
+
+.panel {
+  transform: translateY(-70px);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(20, 31, 2, 0.1) 0px 5px 10px 0px;
+  margin-bottom: -60px;
+}
+
+.name {
+  margin-top: 10px;
+}
+
+.credential {
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+.credential span {
+  border: none;
+  outline: none;
+  background: rgba(224, 235, 227, 0.9);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: 7px;
+  margin: 0 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.credential > div {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: left;
+}
+
+input[type=file] {
+  display: none;
+}
+
+.show {
+  margin-right: 12px;
+}/*# sourceMappingURL=User.css.map */

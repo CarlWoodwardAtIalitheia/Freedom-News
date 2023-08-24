@@ -1,0 +1,33 @@
+@use '../basic';
+
+.events {
+    @extend %column-flex;
+    // padding: 10px;
+}
+
+.follow-panel {
+    @extend %row-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+
+    margin: 10px;
+
+}
+
+.follow-panel input {
+    flex-grow: 1;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paste {
+    margin-left: 10px;
+}
+
+.prompt {
+    text-align: center;
+    color: rgba(basic.$foreground, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}

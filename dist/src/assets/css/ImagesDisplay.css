@@ -1,0 +1,16 @@
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.images-container {
+  justify-content: left;
+  overflow-x: scroll;
+}
+
+img {
+  height: 25vh;
+  margin: 0 10px;
+  font-family: Franklin, arial, sans-serif;
+}/*# sourceMappingURL=ImagesDisplay.css.map */

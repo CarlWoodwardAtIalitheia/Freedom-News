@@ -1,0 +1,61 @@
+@use "../basic";
+
+.intro {
+    padding: 10px;
+    margin-top: -10px;
+    box-sizing: border-box;
+
+    background: rgba(basic.$background, 0.3);
+    backdrop-filter: blur(20px);
+
+    @extend %column-flex;
+}
+
+.intro>* {
+    margin: 10px 0;
+}
+
+.key-images {
+    @extend %row-flex;
+    flex-wrap: nowrap;
+
+    overflow-y: scroll;
+}
+
+.image {
+    margin: 0 10px;
+
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+
+    background: gray;
+}
+
+.follow-btn {
+    height: 40px;
+    border-radius: 20px;
+
+    outline: none;
+    border: none;
+}
+
+.following {
+    color: basic.$foreground;
+    background: rgba(basic.$background, 0.7);
+}
+
+.follow {
+    color: basic.$background;
+    background: rgba(basic.$foreground, 0.95);
+}
+
+.summary {
+    opacity: 0.3;
+    font-family: Franklin, arial, sans-serif;
+    font-size: small;
+}
+
+.timeline {
+    flex-grow: 1;
+}

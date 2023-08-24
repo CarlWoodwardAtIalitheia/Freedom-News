@@ -1,0 +1,11 @@
+@use "basic";
+
+.app {
+    @extend %column-flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+router-view {
+    flex-grow: 1;
+}

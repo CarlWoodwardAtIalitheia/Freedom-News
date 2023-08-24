@@ -1,0 +1,76 @@
+.tags, .tag, .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+input {
+  font-size: large;
+  margin-left: 5px;
+  border: none;
+  border-bottom: #141f17 1px solid;
+  border-radius: 0;
+  outline: none;
+  color: #141f17;
+}
+
+input,
+select {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+strong {
+  color: rgba(20, 31, 23, 0.8);
+}
+
+.new-event {
+  box-sizing: border-box;
+  width: 100vw;
+  margin-top: 5px;
+  padding: 10px;
+  border: rgba(20, 31, 23, 0.5) 2px dashed;
+  border-radius: 20px;
+}
+
+.tags {
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.tag {
+  margin: 5px;
+  padding: 0 5px;
+  background: rgba(224, 235, 227, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 20px;
+  height: 22px;
+  align-items: center;
+}
+
+img[src*=br-cross] {
+  margin-left: 2px;
+}
+
+.updating {
+  animation: turn 1s linear infinite;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.title {
+  flex-wrap: wrap;
+}
+
+.title-input {
+  flex-grow: 1;
+}/*# sourceMappingURL=NewEvent.css.map */

@@ -1,0 +1,15 @@
+div {
+  border: none;
+  outline: none;
+  margin: 5px;
+  padding: 0 5px;
+  background: rgba(224, 235, 227, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+input {
+  margin: 0 5px;
+  border-bottom: #141f17 1px solid;
+}/*# sourceMappingURL=NewTag.css.map */

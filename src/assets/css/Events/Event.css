@@ -1,0 +1,64 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.key-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.intro {
+  padding: 10px;
+  margin-top: -10px;
+  box-sizing: border-box;
+  background: rgba(224, 235, 227, 0.3);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+}
+
+.intro > * {
+  margin: 10px 0;
+}
+
+.key-images {
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+}
+
+.image {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  background: gray;
+}
+
+.follow-btn {
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+
+.following {
+  color: #141f17;
+  background: rgba(224, 235, 227, 0.7);
+}
+
+.follow {
+  color: #e0ebe3;
+  background: rgba(20, 31, 23, 0.95);
+}
+
+.summary {
+  opacity: 0.3;
+  font-family: Franklin, arial, sans-serif;
+  font-size: small;
+}
+
+.timeline {
+  flex-grow: 1;
+}/*# sourceMappingURL=Event.css.map */

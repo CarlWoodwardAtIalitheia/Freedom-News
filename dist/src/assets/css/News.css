@@ -1,0 +1,36 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.post {
+  padding: 10px;
+  height: 120px;
+}
+
+span {
+  opacity: 0.4;
+  font-family: Franklin, arial, sans-serif;
+}
+
+h3 {
+  flex-grow: 1;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+
+.info {
+  justify-content: space-between;
+}/*# sourceMappingURL=News.css.map */
