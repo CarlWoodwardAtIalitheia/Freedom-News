@@ -1,0 +1,12 @@
+@use "../../basic";
+
+.list>div {
+    width: 440px;
+    @extend %row-flex;
+}
+
+.list {
+    @extend %row-flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}

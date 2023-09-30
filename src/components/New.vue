@@ -125,4 +125,5 @@ export default {
 </script>
 <style scoped>
 @import url(../assets/css/New.css);
+@import url(../assets/css/desktop/New.css) screen and (min-width: 500px);
 </style>

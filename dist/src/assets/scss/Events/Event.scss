@@ -8,6 +8,10 @@
     background: rgba(basic.$background, 0.3);
     backdrop-filter: blur(20px);
 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(20, 31, 2, 0.1) 0px 5px 10px 0px;
+
     @extend %column-flex;
 }
 

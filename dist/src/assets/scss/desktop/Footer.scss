@@ -1,0 +1,48 @@
+@use "../basic";
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    @extend %row-flex;
+    order: 4;
+}
+
+.desktop ul {
+    align-items: center;
+}
+
+.desktop li {
+    margin: 0 10px;
+    // font-weight: bolder;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.new-button {
+
+    width: 120px;
+    text-align: center;
+    height: 40px;
+    border-radius: 25px;
+    background: rgba(basic.$foreground, 0.7);
+    color: basic.$background;
+    backdrop-filter: blur(10px);
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+
+    // margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.new-button img {
+    margin-right: 5px;
+}

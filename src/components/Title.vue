@@ -15,7 +15,7 @@ export default {
         },
         width: {
             type: String,
-            default: "60vw"
+            default: "auto"
         },
         fontSize: {
             type: String,

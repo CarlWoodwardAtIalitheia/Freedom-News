@@ -1,12 +1,16 @@
 <script setup>
+import { useNostrStore } from '../clients/nostr';
 import { useUIStore } from '../ui';
+import Publisher from './Publisher.vue';
+import { nip19, getPublicKey } from 'nostr-tools';
 </script>
 
 <script>
 export default {
     data() {
         return {
-            ui: useUIStore()
+            ui: useUIStore(),
+            nostr: useNostrStore()
         };
     }
 };
@@ -15,6 +19,8 @@ export default {
 <template>
     <div :style="{ marginTop: ui.dashboardHeight + (ui.dashboardHeight ? 10 : 0) + 'px' }">
         <div class="dashboard" :style="{ height: ui.dashboardHeight + 'px' }">
+            <Publisher :pubkey="getPublicKey(nostr.sk)" v-if="ui.desktop"
+                @click="$router.push(`/users/${nip19.npubEncode(getPublicKey(nostr.sk))}`)"></Publisher>
         </div>
     </div>
 </template>

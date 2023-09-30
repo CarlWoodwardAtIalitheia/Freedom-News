@@ -4,7 +4,8 @@ export const zh_hans = {
         home: '主页',
         new: '',
         events: '事件',
-        me: '我'
+        me: '我',
+        newButton: '创作'
     },
     events: {
         following: '你的关注',

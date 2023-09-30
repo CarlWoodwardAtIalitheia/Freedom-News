@@ -1,6 +1,6 @@
 @use "basic";
 
-footer {
+.mobile {
     position: fixed;
     bottom: 0;
     z-index: 2;
@@ -10,6 +10,10 @@ footer {
 
     background: rgba(basic.$background, 0.7);
     backdrop-filter: blur(20px);
+}
+
+.desktop {
+    display: none;
 }
 
 ul {
@@ -28,7 +32,7 @@ li {
     box-sizing: border-box;
 }
 
-span {
+.mobile span {
     font-size: xx-small;
 }
 

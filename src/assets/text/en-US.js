@@ -4,7 +4,8 @@ export const en_us = {
         home: 'HOME',
         new: '',
         events: 'EVENTS',
-        me: 'ME'
+        me: 'ME',
+        newButton: 'NEW'
     },
     events: {
         following: 'Following',

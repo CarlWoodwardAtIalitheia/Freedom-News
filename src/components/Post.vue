@@ -55,6 +55,7 @@ export default {
 
 <style scoped>
 @import url(../assets/css/Post.css);
+@import url(../assets/css/desktop/Post.css) screen and (min-width: 500px);
 </style>
 
 <style>

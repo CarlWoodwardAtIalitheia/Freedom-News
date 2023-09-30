@@ -1,0 +1,14 @@
+.list > div, .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.list > div {
+  width: 440px;
+}
+
+.list {
+  flex-wrap: wrap;
+  margin: 0 auto;
+}/*# sourceMappingURL=EventList.css.map */

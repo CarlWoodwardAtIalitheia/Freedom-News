@@ -16,6 +16,7 @@ import { useNostrStore } from './clients/nostr';
 import { RouterView } from 'vue-router';
 
 import { auto as followSystemColorScheme, setFetchMethod } from 'darkreader';
+import { useUIStore } from './ui';
 
 </script>
 
@@ -27,6 +28,10 @@ export default {
         //     brightness: 80,
         //     contrast: 120,
         // });
+        let desktop = window.matchMedia('(min-width: 500px)');
+        if (desktop.matches) {
+            this.ui.desktop = true;
+        }
     },
     routes: [
         { path: '/', redirect: '/events' },
@@ -41,7 +46,8 @@ export default {
     data() {
         return {
             nostr: useNostrStore(),
-            continued: false
+            continued: false,
+            ui: useUIStore()
         };
     }
 };

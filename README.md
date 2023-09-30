@@ -6,7 +6,7 @@
 
 ## Official version
 
-[Freedom-News 1.0.1 (https://freedom-news.vercel.app/)](https://freedom-news.vercel.app/)
+[Freedom-News 1.1.0 (https://freedom-news.vercel.app/)](https://freedom-news.vercel.app/)
 
 ## Developing
 

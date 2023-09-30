@@ -11,7 +11,7 @@ ul {
   justify-content: space-around;
 }
 
-footer {
+.mobile {
   position: fixed;
   bottom: 0;
   z-index: 2;
@@ -20,6 +20,10 @@ footer {
   background: rgba(224, 235, 227, 0.7);
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
+}
+
+.desktop {
+  display: none;
 }
 
 ul {
@@ -34,7 +38,7 @@ li {
   box-sizing: border-box;
 }
 
-span {
+.mobile span {
   font-size: xx-small;
 }
 

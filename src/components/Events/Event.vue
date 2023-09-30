@@ -66,8 +66,11 @@ export default {
         }}</button>
     </div>
 
-    <Timeline :updates="posts"></Timeline>
+    <div class="timeline">
+        <Timeline :updates="posts"></Timeline>
+    </div>
 </template>
 <style scoped>
 @import url(../../assets/css/Events/Event.css);
+@import url(../../assets/css/desktop/Events/Event.css) screen and (min-width: 500px);
 </style>

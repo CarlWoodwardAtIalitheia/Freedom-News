@@ -1,0 +1,45 @@
+.desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  order: 4;
+}
+
+.desktop ul {
+  align-items: center;
+}
+
+.desktop li {
+  margin: 0 10px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.new-button {
+  width: 120px;
+  text-align: center;
+  height: 40px;
+  border-radius: 25px;
+  background: rgba(20, 31, 23, 0.7);
+  color: #e0ebe3;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: none;
+  font-size: 16px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.new-button img {
+  margin-right: 5px;
+}/*# sourceMappingURL=Footer.css.map */

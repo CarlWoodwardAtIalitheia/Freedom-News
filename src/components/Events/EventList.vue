@@ -51,4 +51,5 @@ export default {
 
 <style scoped>
 @import url(../../assets/css/Events/EventList.css);
+@import url(../../assets/css/desktop/Events/EventList.css) screen and (min-width: 500px);
 </style>

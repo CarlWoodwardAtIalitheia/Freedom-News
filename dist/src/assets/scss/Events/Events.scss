@@ -3,6 +3,7 @@
 .events {
     @extend %column-flex;
     // padding: 10px;
+    align-items: center;
 }
 
 .follow-panel {

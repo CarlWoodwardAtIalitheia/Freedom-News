@@ -114,6 +114,7 @@ export default {
             }
         },
         async _continue() {
+            window.nostr = this.nostr;
             if (!await db.credentials.where('sk').equals(this.sk).first()) {
                 await db.credentials.add({
                     user: getPublicKey(this.nostr.sk),
@@ -179,4 +180,5 @@ export default {
 
 <style scoped>
 @import url(../assets/css/ConnectionEstablishment.css);
+@import url(../assets/css/desktop/ConnectionEstablishment.css) screen and (min-width: 500px);
 </style>

@@ -9,7 +9,7 @@ import cdn from '../clients/cdn'
 </script>
 
 <template>
-    <template v-if="profile">
+    <div v-if="profile" class="user">
         <div class="banner" @click="$refs.bannerInput.click"><img :src="profile.banner" alt="Banner"></div>
         <div class="panel">
             <div class="avatar" @click="$refs.avatarInput.click"><img :src="profile.picture" alt="Avatar"></div>
@@ -37,7 +37,7 @@ import cdn from '../clients/cdn'
             <input type="file" name="avatar" id="avatar" accept="image/*" ref="avatarInput" @change="updateProfile">
         </template>
         <Timeline :updates="posts"></Timeline>
-    </template>
+    </div>
 </template>
 <script>
 export default {
@@ -132,4 +132,5 @@ export default {
 </script>
 <style scoped>
 @import url(../assets/css/User.css);
+@import url(../assets/css/desktop/User.css) screen and (min-width: 500px);
 </style>
